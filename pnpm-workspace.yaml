@@ -11,6 +11,7 @@ overrides:
   "cookie-es": "^3.1.1"
   "oxc-parser": "link:./shims/oxc-parser"
   # "vite": "^7"
+  "@react-router/dev>chokidar": "^5.0.0"
 
 packages:
   - examples/**
@@ -93,3 +94,8 @@ minimumReleaseAgeExclude:
   - unstorage*
   - untyped*
   - unwasm*
+  - '@react-router/dev@7.18.0'
+  - '@react-router/express@7.18.0'
+  - '@react-router/node@7.18.0'
+  - '@react-router/serve@7.18.0'
+  - react-router@7.18.0
